@@ -1,0 +1,58 @@
+html {
+    font-size: 20px;
+}
+/* Assign 01 */
+.parent-one,
+.parent-two {
+    margin: 50px auto;
+    width: 800px;
+    padding: 40px 60px;
+    border: 5px solid #f8683c;
+}
+.parent-one p,
+.parent-two p {
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    background-color: #DDDDDD;
+    padding: inherit;
+    border: inherit;
+}
+.parent-two {
+    border: 5px solid #009688;
+}
+
+/* Assign 02,03*/
+.parent-three {
+    font-size: 80px;
+}
+.parent-three,
+.parent-four {
+    text-align: center;
+    line-height: 80px;
+    text-transform: capitalize;
+}
+.parent-three .one {
+    font-family: 'Open Sans', sans-serif;
+}
+.parent-three .two,
+.parent-four {
+    font-family: 'Cairo', sans-serif;
+}
+.parent-three .three {
+    font-family: 'Jomhuria', cursive;
+}
+.parent-four {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parent-four .-one {
+    font-size: 2.5rem;
+}
+.parent-four .-two {
+    font-size: 2rem;
+}
+.parent-four .-three {
+    font-size: 1.5rem;
+}
+
+

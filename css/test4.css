@@ -1,0 +1,55 @@
+/* Ass 1 */
+.ass-1 {
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    text-shadow:rgb(246, 67, 102) 1px 1px,
+                rgb(67, 130, 246) 2px 2px,
+                rgb(177, 83, 253) 3px 3px ;
+}
+
+/* Ass 2 */
+p {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+.one {
+    text-transform: uppercase;
+}
+.two {
+    text-transform:capitalize;
+}
+.three {
+    text-transform: lowercase;
+}
+
+/* Ass 3 */
+.ass-3-1 ,
+.ass-3-2 ,
+.ass-3-3 {
+    width: 400px;
+    background-color: rgb(243, 240, 240);
+    padding: 20px;
+    margin: 20px auto;
+}
+.ass-3-3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* Ass 4 */
+a {
+    font-size: 30px;
+
+    text-decoration: none;
+    color: white;
+    background-color: teal;
+    padding: 30px 50px;
+    text-transform: capitalize;
+    border-bottom: 10px solid rgb(2, 93, 93);
+    margin: 50%;
+    
+}

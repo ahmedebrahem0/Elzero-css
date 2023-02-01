@@ -1,0 +1,45 @@
+/* Assignment 01 */
+.ass-1 div {
+    background-color:#eee;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+.one {
+    border: 5px red solid;
+    outline: 5px black solid;
+}
+.two {
+    border-width: 5px;
+    border-color: blue green; 
+    border-style: solid;
+    outline: 5px black solid;
+}
+.three {
+    border-width: 5px;
+    border-color: red  green blue yellow; 
+    border-style: dashed;
+    outline: 5px black solid;
+}
+
+/* Assignment 02 */
+.ass-2 div {
+    background-color:#eee;
+    width: 400px;
+    margin: 30px;
+    padding: 20px;
+}
+.four {
+    border-left: 8px solid rgb(236, 65, 99);
+    outline: #eee 20px solid;
+}
+.five {
+    display: inline-block;
+    border-left: 8px solid;
+    outline: #eee 20px solid;
+    visibility: hidden;
+}
+.sex {
+    border-left: 8px solid rgb(14, 142, 151);
+    outline: #eee 20px solid;
+}

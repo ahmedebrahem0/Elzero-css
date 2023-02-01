@@ -1,0 +1,24 @@
+    /*div {
+        padding: 10px;
+        margin: 30px 40px;
+        color: #eee;
+        width: 100px;
+        position: absolute;
+
+    }
+    */
+    .won {
+        background-color: red;
+        left: 55px;
+        top: 61px;
+    }
+
+    .tow {
+        background-color: blue;
+        left: 35px;
+        top: 34px;
+    }
+
+    .three {
+        background-color: green;
+    }

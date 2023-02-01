@@ -1,0 +1,67 @@
+.own,.two{
+    width: 300px;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+.own{
+    background-color: red;
+    position: absolute;
+}
+
+.two{
+    background-color: green;
+    
+}
+
+.testtwo{
+    background-color: rgb(18, 93, 241);
+    color: white;
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+
+body{
+    min-height: 4000px;
+}
+
+.ahmed{
+    background-color: #EEE;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-weight:900;
+    font-size: 20px;
+    margin: 30px auto;
+    border-radius: 20px;
+    border: 10px solid red green blue rgb(204, 255, 0);
+    border-top: red solid  10px;
+    border-bottom: blue solid 10px;
+    border-right: yellow solid 10px;
+    border-left: green solid 10px;
+    
+}
+
+
+.sticky{
+    position: sticky;
+    background-color: red;
+    font-size: 20px;
+    top: 20px;
+}
+
+body{
+    font-size: 20px;
+}
+
+
+#test {
+font-size: 1.5px;
+}
+.test {
+    font-size: 50pxpx;
+    }
+    
+    

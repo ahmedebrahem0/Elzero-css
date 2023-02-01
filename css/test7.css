@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Assign 01 */
+div {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.green {
+    left: 30px;
+    top: 30px;
+    background-color: #009688;
+    z-index: 3;
+}
+.red {
+    left: 40px;
+    top: 40px;
+    background-color: #F44336;
+    z-index: 4;
+}
+.blue {
+    left: 20px;
+    top: 20px;
+    background-color: #03A9F4;
+    z-index: 2;
+}
+.black {
+    left: 20px;
+    top: 30px;
+    background-color: #333333;
+}
+
+/* Assign 02 */
+.hr1,
+.ass-2 {
+    position: relative;
+    top: 200px;
+}
+.ass-2 {
+    position: relative;
+    margin: 50px auto;
+    width: 400px;
+    height: 100px;
+    background-color: #EEEEEE;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid ;
+    border-color: #F44336  #2196F3 #F44336 #2196F3;
+}
+.ass-2 span {
+    position: absolute;
+    color: white;
+    width: 40px;
+    height: 30px;
+    background-color: #2196F3;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.top-left {
+    left: -20px;
+    top: -15px;
+    border-right: 3px solid #F44336;
+}
+.bottom-left {
+    bottom: -15px;
+    left: -20px;
+    border-right: 3px solid #F44336;
+}
+.top-right {
+    top: -15px;
+    right: -20px;
+    border-left: 3px solid #F44336;
+}
+.bottom-right {
+    bottom: -15px;
+    right: -20px;
+    border-left: 3px solid #F44336;
+}
+.hr2 {
+    position: relative;
+    margin-top: 250px;
+}
+/* Assign 03 */
+.ul-main {
+    width: 400px;
+    margin: 50px auto;
+    list-style-type: none;
+}
+.ul-main li {
+    background-color: #EEEEEE;
+    padding: 10px;
+    margin: 10px;
+}
+.ul-main li ol li{
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin-left: 0;
+}
+.ul-main .css li {
+    list-style-type: upper-roman;
+}
+.ul-main li ul li {
+    list-style-position: inside;
+    background-color: #FFFFFF;
+    margin-left: -35px;
+}
+
+/* Assign 04 */
+table {
+    margin: 70px auto;
+    max-width: 700px;
+    font-size: 20px;
+    border: 2px solid #FFFFFF;
+}
+table caption {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+table thead th{
+    color: #FFFFFF;
+    background-color: #404040;
+    padding: 20px;
+}
+table tbody {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+table tbody td {
+    padding: 10px 10px;
+}
+table tbody img {
+    width: 60px;
+    height: 70px;
+    border: 4px solid #ffffff;
+}
+ td button {
+    font-weight: bold;
+    margin: 2px;
+    padding: 5px 10px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+table .one {
+    background-color: #03A9F4;
+}
+table .two {
+    background-color: #E91E63;
+}
+table tfoot tr td{
+    border-bottom: 3px solid #009688;
+    padding: 0;
+}

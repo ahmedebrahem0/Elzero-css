@@ -1,0 +1,25 @@
+.all p{
+    background-color:#EEE;
+    margin: 30px;
+    padding: 20px;
+    size: large;
+    max-width: 300px;
+    font-size: 30px;
+    display: block;
+    outline: 10px solid rgb(118, 113, 113);
+}
+
+.won{
+    border-bottom: 10px red solid;
+    color: red;
+}
+
+.tow{
+    border-bottom: 10px rgb(8, 28, 213) solid;
+    color: blue;
+}
+
+.three{
+    border-bottom: 10px rgb(51, 255, 0) solid;
+    color: green;
+}
